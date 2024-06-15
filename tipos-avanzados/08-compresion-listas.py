@@ -19,5 +19,5 @@ usuarios = [
 
 # Filtrar y transformar
 nombres = [usuario[0] for usuario in usuarios if usuario[1] > 2]
-nombres.sort()
+nombres.sort(reverse=True)
 print(nombres)
