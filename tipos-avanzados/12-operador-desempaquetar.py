@@ -1,5 +1,5 @@
 # * sirve para desempaquetar una lista o tupla, es decir, para obtener los elementos de una lista o tupla de forma individual.
-lista = [1, 2, 3, 4]
+lista = [1, 2, 3, 4, 5]
 print(*lista)
 
 # Se puede usar para combinar listas o tuplas
