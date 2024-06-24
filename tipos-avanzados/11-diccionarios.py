@@ -16,7 +16,7 @@ print(punto)
 if "a" in punto:
     print(punto["a"])
     
-# Otra forma de acceder a una llave que no se sabe si existe, si no existe retorna None
+# Otra forma de acceder a una llave que no se sabe si existe, si existe retorna el valor y si no existe retorna None
 print(punto.get("a"))
 
 # Otra forma de acceder a una llave que no se sabe si existe, si no existe retorna el valor que se le pase 
