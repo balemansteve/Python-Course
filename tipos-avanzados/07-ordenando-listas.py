@@ -23,7 +23,9 @@ def ordena(elemento):
 # calificacion = ordena(primer_usuario)
 # print(calificacion)
 
-# Ordenar la lista de usuarios de mayor a menor calificacion
-usuarios.sort(key=ordena, reverse=True)
+# Ordenar la lista de usuarios de mayor a menor calificacion con la funcion ordena
+# usuarios.sort(key=ordena, reverse=True)
+
+# Ordenar la lista de usuarios de mayor a menor calificacion con una funcion lambda
 usuarios.sort(key=lambda elemento: elemento[1], reverse=True)
 print(usuarios)
