@@ -15,7 +15,10 @@ print(nombres)
 # nombres = [expresion for i in items]
 
 # Transformacion - map
-# nombres = [usuario[1] for usuario in usuarios]
+
+# Declaramos una lista, para cada sublista de la lista usuarios vamos guardando el segundo elemento en la lista creada
+nombres = [usuario[1] for usuario in usuarios]
+print(nombres)
 
 # Filtramos - filter
 # nombres = [usuario for usuario in usuarios if usuario[1] > 2]
