@@ -1,3 +1,4 @@
+# Declaramos una lista de usuarios
 usuarios = [
     ["Bryan", 4], 
     ["Juan", 2], 
@@ -5,10 +6,11 @@ usuarios = [
     ["Carlos", 1]
 ]
 
-# nombres = []
-# for usuario in usuarios:
-#     nombres.append(usuario[0])
-# print(nombres)
+# Declaramos una lista, con el metodo append vamos agregando el primer elemento de cada sublista
+nombres = []
+for usuario in usuarios:
+    nombres.append(usuario[0])
+print(nombres)
 
 # nombres = [expresion for i in items]
 
