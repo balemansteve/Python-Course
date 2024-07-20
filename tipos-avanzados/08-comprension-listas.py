@@ -6,17 +6,16 @@ usuarios = [
     ["Carlos", 1]
 ]
 
-# Declaramos una lista, con el metodo append vamos agregando el primer elemento de cada sublista
+# Declaramos una lista nombres[], con el metodo append() le vamos agregando el primer elemento de cada sublista de la lista usuarios[]
 nombres = []
 for usuario in usuarios:
     nombres.append(usuario[0])
 print(nombres)
 
 # nombres = [expresion for i in items]
-
 # Transformacion - map
 
-# Declaramos una lista, para cada sublista de la lista usuarios vamos guardando el segundo elemento en la lista creada
+# Declaramos una lista, para cada sublista de la lista usuarios[] vamos guardando el segundo elemento de cada sublista en la lista creada
 nombres = [usuario[1] for usuario in usuarios]
 print(nombres)
 
