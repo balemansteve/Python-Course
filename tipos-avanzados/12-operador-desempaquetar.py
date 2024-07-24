@@ -14,6 +14,8 @@ print(combinada)
 # Si se repiten las claves, se toma el valor del último diccionario.
 punto1 = {"x": 19, "y": 20}
 punto2 = {"y": 15}
+print({**punto1, **punto2})
+
 # Se puede combinar con elementos adicionales
 nuevoPunto = {**punto1, "hola": "mundo", **punto2}
 print(nuevoPunto)
