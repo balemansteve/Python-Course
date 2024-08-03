@@ -1,3 +1,4 @@
+# Definimos una función que recibe un número variable de argumentos, suma los números y los imprime. Llamamos a la función con diferentes cantidades de argumentos.
 def suma(*numeros):
     resultado = 0
     for numero in numeros:
