@@ -4,7 +4,8 @@ def suma(*numeros):
     for numero in numeros:
         resultado += numero
     print(resultado)
-    
+
+# Llamamos a la función con diferentes cantidades de argumentos
 suma(2, 5, 7)
 suma(2, 8)
 suma(2, 8, 9, 10)
