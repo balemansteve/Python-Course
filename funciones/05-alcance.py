@@ -10,6 +10,7 @@ def saludar():
 def saludaChanchito():
     saludo = "Hola Chanchito"
 
+# Primero imprimimos la variable global, luego la modificamos y volvemos a imprimirla pero no se imprime el cambio
 print(saludo)
 saludar()
 print(saludo)
