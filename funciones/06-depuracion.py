@@ -5,7 +5,7 @@ def largo(texto):
         resultado += 1
     return resultado 
     
-    
+# Imprimimos el largo de un texto
 print("chanchito")
 l = largo("Hola Mundo")
 print(l)
