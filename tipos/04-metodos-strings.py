@@ -1,4 +1,7 @@
+# Definimos una variable que almacena un string
 animal = "  chanCHito feliz  "
+
+# Imprimimos varios metodos que trabajan con strings (objeto.metodo())
 print(animal.upper())
 print(animal.lower())
 print(animal.strip().capitalize())
