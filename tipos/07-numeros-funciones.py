@@ -9,4 +9,4 @@ print(math.ceil(1.1)) # Redondea al entero más grande
 print(math.floor(1.9999)) # Redondea al entero más pequeño
 #print(math.isnan("23")) # No es un número
 print(math.pow(10, 3)) # Potencia pow(base, exponente)
-print(math.sqrt(9)) # Raíz cuadrada
+print(math.sqrt(9)) # Raíz cuadradad
