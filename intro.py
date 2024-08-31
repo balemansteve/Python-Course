@@ -1,2 +1,2 @@
-print("Hola Mundo")
-print("El weta " * 4)
+print("Hola Mundo") # Imprime un string
+print("El weta " * 4) # Imprime el string 4 veces
