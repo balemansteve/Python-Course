@@ -5,7 +5,7 @@
 
 comando = "" # Inicializar la variable comando
 
-# Mientras el comando no sea "salir", imprimir el comando. lower() convierte el string a minúsculas para comparar con "salir" correctamentef
+# Mientras el comando no sea "salir", imprimir el comando. lower() convierte el string a minúsculas para comparar con "salir" correctamente
 while comando.lower() != "salir":
     comando = input("$ ")
     print(comando)
