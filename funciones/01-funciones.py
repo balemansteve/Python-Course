@@ -1,4 +1,4 @@
-# Definir una función que reciba un nombre y un apellido, y que imprima un mensaje de bienvenida. El apellido debe tener un valor por defecto de "Feliz". Llamar a la función con un solo argumento y con dos argumentos.
+# Definir una función que reciba un nombre y un apellido, y que imprima un mensaje de bienvenida. El apellido debe tener un valor por defecto de "Feliz". Llamar a la función con un solo argumento y con dos argumentos
 def hola(nombre, apellido="Feliz"):
     print("Hola, mundo!")
     print(f"Bienvenido {nombre} {apellido}")
