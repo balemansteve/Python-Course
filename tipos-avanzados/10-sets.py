@@ -10,7 +10,7 @@ segundo = [3, 4, 5]
 segundo = set(segundo)
 print(segundo)
 
-# imprime la union de los dos sets (operador union '|')
+# Imprime la union de los dos sets (operador union '|')
 print(primer | segundo)
 
 # imprime la interseccion de los dos sets (operador interseccion '&')
