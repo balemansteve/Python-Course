@@ -8,7 +8,6 @@ class Animal:
         
     def dormir(self):
         print(f"{self.name} está durmiendo")
-    
     pass
 
 perro = Animal("Firulais, 10")
