@@ -11,6 +11,7 @@ class Animal:
         print(f"{self.name} está durmiendo")
     pass
 
+# Create an object of the class Animal
 perro = Animal("Firulais, 10")
 
 print(f"{perro.name} tiene {perro.age} años")
