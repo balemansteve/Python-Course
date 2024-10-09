@@ -5,6 +5,7 @@ class Animal:
         self.name = nombre
         self.age = edad
     
+    # Methods of the class Animal
     def correr(self):
         print(f"{self.name} está corriendo")
         
