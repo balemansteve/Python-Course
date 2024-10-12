@@ -11,6 +11,7 @@ class Animal:
         
     def dormir(self):
         print(f"{self.name} está durmiendo")
+
     # Pass sentence is used to avoid an error when the class is empty
     pass
 
