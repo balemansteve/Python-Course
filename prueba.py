@@ -1,5 +1,6 @@
 # Definition of a class called Animal with two atributtes and two methods
 class Animal:
+
     # Constructor of the class Animal
     def __init__(self, nombre, edad):
         self.name = nombre
@@ -11,6 +12,7 @@ class Animal:
         
     def dormir(self):
         print(f"{self.name} está durmiendo")
+
     # Pass sentence is used to avoid an error when the class is empty
     pass
 
