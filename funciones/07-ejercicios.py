@@ -9,8 +9,8 @@ def es_palindromo(texto):
     for i in texto_sin_espacios[::-1]:
         texto_reversa += i
     return texto_sin_espacios == texto_reversa # Retorna un booleando comprobando si es True o False que el texto_sin_espacios sea igual a texto_reversa y sea palindromo
-            
-    
+
+
 # Imprimimos varios textos para comprobar si son palindromos gracias a la funcion que definimos
 print("Abba", es_palindromo("Abba"))
 print("Reconocer", es_palindromo("Reconocer"))
