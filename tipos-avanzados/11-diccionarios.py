@@ -61,4 +61,3 @@ usuarios = [
 
 for usuario in usuarios:
     print(usuario["nombre"])
-    
