@@ -17,6 +17,7 @@ class Animal:
     # Pass sentence is used to avoid an error when the class is empty
     pass
 
+
 # Create an object of the class Animal
 perro = Animal("Firulais, 10")
 
