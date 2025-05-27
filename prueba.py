@@ -23,4 +23,3 @@ perro = Animal("Firulais, 10")
 
 # Call the methods of the object perro
 print(f"{perro.name} tiene {perro.age} años")
-
