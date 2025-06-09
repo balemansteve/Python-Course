@@ -7,5 +7,4 @@ for rank, (nombre, nota) in enumerate(zip(nombres, notas), start=1):
 print(ranking)
 
 
-
 # f"{rank}. {nombre}: {nota}"
