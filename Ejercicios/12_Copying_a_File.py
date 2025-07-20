@@ -12,4 +12,4 @@ with open("source.txt", "r") as source:
         for line in source:
             destination.write(line)
 
-print("File copied successfully.")
+print("File copied successfully")
