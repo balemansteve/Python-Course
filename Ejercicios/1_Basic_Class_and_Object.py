@@ -1,3 +1,8 @@
+"""
+Se define una clase con atributos y un método,
+se crea una instancia de la clase y se ejecuta el método.
+"""
+
 class Car:
   def __init__(self, brand, model, year):
     self.brand = brand
