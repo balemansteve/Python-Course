@@ -1,6 +1,7 @@
 """
 Definition of a class called Animal with two atributtes and two methods
 """
+
 class Animal:
     # Constructor of the class Animal
     def __init__(self, nombre, edad):
@@ -23,4 +24,5 @@ perro = Animal("Firulais, 10")
 
 # Call the methods of the object perro
 print(f"{perro.name} tiene {perro.age} años")
+
 
