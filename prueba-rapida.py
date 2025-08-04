@@ -1,3 +1,9 @@
+"""
+Este módulo genera un ranking de estudiantes con sus respectivas notas.
+Toma dos listas: una con nombres y otra con notas, y crea un listado 
+ordenado con formato 'posición. nombre: nota'.
+"""
+
 nombres = ["Ale", "Bryan", "Maria"]
 notas = [10, 8, 6]
 
