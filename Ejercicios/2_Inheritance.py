@@ -1,3 +1,14 @@
+"""
+Este módulo define una clase base 'Animal' y una subclase 'Dog'.
+La clase 'Animal' tiene atributos comunes como 'name' y 'species',
+y un método 'make_sound' que representa un sonido genérico.
+
+La subclase 'Dog' hereda de 'Animal' y sobrescribe el método 'make_sound'
+para emitir un sonido específico de perro.
+
+Se crean instancias de ambas clases y se demuestra el uso del polimorfismo.
+"""
+
 class Animal:
   def __init__(self, name, species):
     self.name = name
