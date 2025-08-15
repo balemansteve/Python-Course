@@ -4,7 +4,6 @@ Este repositorio está diseñado para aprender Python de forma práctica y senci
 
 ## 🧠 ¿Qué aprenderás?
 
-
 - Sintaxis básica de Python (`intro.py`)
 - Tipos de datos (números, strings, booleanos, listas, etc.) en `/tipos`
 - Tipos avanzados como `sets`, `tuplas`, `range`, `dicts` en `/tipos-avanzados`
