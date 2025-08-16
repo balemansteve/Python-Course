@@ -1,3 +1,7 @@
+"""
+Clases para calcular el área de un círculo y un rectángulo usando herencia.
+"""
+
 from math import pi
 
 
