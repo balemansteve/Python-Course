@@ -1,3 +1,9 @@
+"""
+Este módulo define una clase BankAccount que simula una cuenta bancaria simple.
+Permite realizar depósitos, retiros y consultar el saldo, 
+respetando la encapsulación de los datos (el saldo es privado).
+"""
+
 class BankAccount:
   def __init__(self):
     self.__balance = 0
