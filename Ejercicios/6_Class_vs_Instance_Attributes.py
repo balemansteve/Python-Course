@@ -1,5 +1,6 @@
 '''
-Los atributos de clase son compartidos por todas las instancias de la clase, mientras que los atributos de instancia son específicos para cada objeto.
+Los atributos de clase son compartidos por todas las instancias de la clase,
+mientras que los atributos de instancia son específicos para cada objeto.
 '''
 
 # Clase Person
