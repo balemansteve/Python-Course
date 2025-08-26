@@ -1,3 +1,8 @@
+"""
+Módulo que muestra el uso de las condicionales
+if, elif y else
+"""
+
 # Condicionales if, elif, else
 edad = 17
 if edad > 65:
@@ -12,3 +17,4 @@ else:
     print("Debes irte")
 
 print("Listo")
+
