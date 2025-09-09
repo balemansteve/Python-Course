@@ -1,3 +1,15 @@
+"""
+Programa que simula una calculadora básica en consola.
+
+- El usuario ingresa un número inicial, una operación y luego otro número.
+- Se pueden realizar las operaciones: suma, resta, multi y div.
+- El resultado se va actualizando después de cada operación.
+- El programa funciona en un bucle infinito hasta que el usuario escriba "salir"
+  en cualquiera de las entradas (número, operación o segundo número).
+- Si el usuario escribe una operación no válida, se muestra un mensaje y el 
+  programa finaliza.
+"""
+
 # Programa que simula una calculadora, donde el usuario ingresa un número, una operación y otro número, y el programa muestra el resultado de la operación
 # El programa se ejecuta en un bucle infinito hasta que el usuario ingresa la palabra "salir"
 print("Bienvenidos a la calculadora")
@@ -32,3 +44,4 @@ while True:
         break
     
     print(f"El resultado es {resultado}")
+
