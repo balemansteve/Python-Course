@@ -1,3 +1,14 @@
+"""
+Ejemplo de operaciones comunes sobre listas en Python:
+
+- insert(i, x): inserta 'x' en la posición 'i'.
+- append(x): agrega 'x' al final de la lista.
+- remove(x): elimina la primera aparición de 'x'.
+- pop(i): elimina el elemento en el índice 'i' y lo devuelve.
+- del lista[i]: elimina el elemento en el índice 'i'.
+- clear(): elimina todos los elementos de la lista.
+"""
+
 # Declara una lista de 6 elementos
 mascotas = [
     'gatito',
@@ -31,3 +42,4 @@ print(mascotas)
 # Elimina todos los elementos de la lista
 mascotas.clear()
 print(mascotas)
+
