@@ -1,3 +1,17 @@
+"""
+Este programa muestra cómo recorrer, transformar y filtrar listas en Python usando bucles, comprensión de listas,
+y funciones lambda con map() y filter().
+
+1. Se crea una lista de usuarios con su nombre y calificación.
+2. Se extraen los nombres usando un bucle for y el método append().
+3. Se realiza la misma extracción mediante comprensión de listas.
+4. Se aplican ejemplos de filtrado y transformación:
+   - Filtrar usuarios con calificación mayor a 2.
+   - Usar funciones lambda junto con map() y filter().
+
+Finalmente, se imprimen los resultados para observar los cambios en las listas.
+"""
+
 # Declaramos una lista de usuarios
 usuarios = [
     ["Bryan", 4], 
@@ -32,3 +46,4 @@ menosUsuario = list(filter(lambda usuario: usuario[1] > 2, usuarios))
 print(menosUsuario)
 
 # print(nombres)
+
