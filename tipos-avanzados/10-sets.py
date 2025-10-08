@@ -1,3 +1,17 @@
+"""
+Este programa demuestra el uso de conjuntos (set) en Python:
+
+1. Crea un conjunto, mostrando que los elementos duplicados se eliminan automáticamente.
+2. Convierte una lista en conjunto utilizando la función set().
+3. Realiza operaciones entre conjuntos:
+   - Unión (|): combina los elementos de ambos conjuntos.
+   - Intersección (&): obtiene los elementos comunes.
+   - Diferencia (-): muestra los elementos del primer conjunto que no están en el segundo.
+   - Diferencia simétrica (^): muestra los elementos que no se repiten en ambos conjuntos.
+
+Finalmente, se imprimen los resultados de cada operación.
+"""
+
 # set significa grupo o conjunto
 # solo hay una instancia de cada elemento
 primer = {1, 1, 2, 3, 4}
@@ -24,3 +38,4 @@ print(primer - segundo)
 # imprime la diferencia simetrica de los dos sets (operador diferencia simetrica '^')
 # son los elementos que no se repiten en ambos sets
 print (primer ^ segundo)
+
