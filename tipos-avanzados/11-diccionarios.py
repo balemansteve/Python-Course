@@ -1,3 +1,20 @@
+"""
+Este programa muestra cómo trabajar con diccionarios en Python:
+
+1. Crear un diccionario con llaves (keys) y valores (values).
+2. Acceder, agregar y eliminar elementos del diccionario.
+3. Evitar errores al acceder a llaves inexistentes usando:
+   - Operador 'in'
+   - Método get() con y sin valor por defecto.
+4. Recorrer un diccionario para obtener:
+   - Solo las llaves.
+   - Llaves y valores mediante distintas formas de iteración.
+5. Desempaquetar los pares llave-valor usando un bucle for.
+6. Crear y recorrer una lista de diccionarios para acceder a valores específicos.
+
+Finalmente, se imprimen los resultados de cada operación.
+"""
+
 # Son una coleccion de datos agrupados por una llave y un valor
 # Solo acepta strings como llave, y el valor puede ser cualquier tipo de dato
 
@@ -61,3 +78,4 @@ usuarios = [
 
 for usuario in usuarios:
     print(usuario["nombre"])
+
