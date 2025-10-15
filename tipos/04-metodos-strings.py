@@ -1,3 +1,18 @@
+"""
+Este programa demuestra el uso de varios métodos de cadenas (strings) en Python:
+
+1. Se define una variable de tipo string con espacios y mezcla de mayúsculas y minúsculas.
+2. Se aplican distintos métodos de cadena:
+   - upper(), lower(): cambian el texto a mayúsculas o minúsculas.
+   - strip(), lstrip(), rstrip(): eliminan espacios en blanco.
+   - capitalize(), title(): modifican la capitalización del texto.
+   - find(): busca una subcadena y devuelve su posición.
+   - replace(): reemplaza parte del texto por otro valor.
+   - in / not in: verifican si una subcadena está (o no) dentro del texto.
+
+Finalmente, se imprimen los resultados de cada operación para observar los cambios en el string.
+"""
+
 # Definimos una variable que almacena un string
 animal = "  chanCHito feliz  "
 
@@ -13,3 +28,4 @@ print(animal.find("cH")) # Encuentra la posición donde aparece "cH", o -1 si no
 print(animal.replace("nCH", "j")) # Reemplaza "nCH" por "j" en el string
 print("nCH" in animal) # Verifica si "nCH" está en el string y retorna True o False
 print("nCH" not in animal) # Verifica si "nCH" no está en el string y retorna True o False
+
