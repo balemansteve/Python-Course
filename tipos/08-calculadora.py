@@ -1,3 +1,19 @@
+"""
+Este programa es una calculadora simple que:
+
+1. Solicita al usuario ingresar dos números mediante input().
+   - Los valores ingresados se reciben como strings.
+2. Convierte los valores a enteros usando int().
+3. Realiza las cuatro operaciones básicas:
+   - Suma (+)
+   - Resta (-)
+   - Multiplicación (*)
+   - División (/)
+4. Usa una f-string con comillas triples para mostrar los resultados en varias líneas.
+
+Finalmente, imprime los resultados de las operaciones de manera ordenada y legible.
+"""
+
 # Description: Calculadora simple que recibe dos numeros y muestra la suma, resta, multiplicacion y division de los mismos
 
 n1 = input("Ingresa primer numero") # input devuelve un string
@@ -21,3 +37,4 @@ el resultado de division es {div}.
 """
 
 print(mensaje)
+
